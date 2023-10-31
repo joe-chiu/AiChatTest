@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAiChat", "WinFormsAiChat.csproj", "{A72EC1E0-1D66-40D7-B9D9-EC58011B3C78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAiClient", "..\OpenAiClient\OpenAiClient.csproj", "{24647C77-4D95-4E11-A55F-B1940FECE216}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiChatEngineNet", "..\AiChatEngineNet\AiChatEngineNet.csproj", "{AC78C034-BF41-4CC5-9634-6B9565080651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A72EC1E0-1D66-40D7-B9D9-EC58011B3C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72EC1E0-1D66-40D7-B9D9-EC58011B3C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72EC1E0-1D66-40D7-B9D9-EC58011B3C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72EC1E0-1D66-40D7-B9D9-EC58011B3C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24647C77-4D95-4E11-A55F-B1940FECE216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24647C77-4D95-4E11-A55F-B1940FECE216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24647C77-4D95-4E11-A55F-B1940FECE216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24647C77-4D95-4E11-A55F-B1940FECE216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC78C034-BF41-4CC5-9634-6B9565080651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC78C034-BF41-4CC5-9634-6B9565080651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC78C034-BF41-4CC5-9634-6B9565080651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC78C034-BF41-4CC5-9634-6B9565080651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A57826-231B-4FCE-9E05-24097F5168D2}
+	EndGlobalSection
+EndGlobal

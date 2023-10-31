@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="data\blacksmith.json" />
+    <None Remove="data\blacksmith.png" />
+    <None Remove="data\blacksmith_mask.png" />
+    <None Remove="data\innkeep.json" />
+    <None Remove="data\innkeep.png" />
+    <None Remove="data\innkeep_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data\blacksmith.json" />
+    <EmbeddedResource Include="data\blacksmith.png" />
+    <EmbeddedResource Include="data\blacksmith_mask.png" />
+    <EmbeddedResource Include="data\innkeep.json" />
+    <EmbeddedResource Include="data\innkeep.png" />
+    <EmbeddedResource Include="data\innkeep_mask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAiClient\OpenAiClient.csproj" />
+  </ItemGroup>
+</Project>
